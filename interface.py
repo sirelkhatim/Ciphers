@@ -83,7 +83,7 @@ if __name__=="__main__":
         condition = True
         while condition:
             try:
-                key = input("please enter the key here: (Use np.array to enter your key. The matrix must be a square matrix. For example the identity matrix is np.array([[1,0],[0,1]])) ")
+                key = input("please enter the key here: (Use np.array to enter your key. The matrix must be an invertible square matrix. For example the identity matrix is np.array([[1,0],[0,1]])) ")
                 if key == 'exit':
                     sys.exit(1)
                 key = eval(key)
